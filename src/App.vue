@@ -1,6 +1,20 @@
 <template>
   <div id="app">
-    <picture-input ref="pictureInput" @change="onChange" name="profilePic" width="600" height="600" margin="16" accept="image/jpeg,image/png"></picture-input>  
+    <picture-input 
+          ref="pictureInput" 
+          @change="onChange" 
+          width="600" 
+          height="600" 
+          margin="16" 
+          accept="image/jpeg,image/png" 
+          size="10" 
+          buttonClass="btn"
+          :removable="true"
+          :customStrings="{
+            upload: '<h1>Bummer!</h1>',
+            drag: 'Drag a 😺 GIF or GTFO'
+          }">
+        </picture-input>  
   </div>
 </template>
 
