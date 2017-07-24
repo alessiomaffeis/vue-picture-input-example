@@ -3704,9 +3704,9 @@ vue-loader@^10.0.0:
     vue-style-loader "^2.0.0"
     vue-template-es2015-compiler "^1.2.2"
 
-vue-picture-input@>=1.7.2:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/vue-picture-input/-/vue-picture-input-1.12.1.tgz#cdc2e2cfd4afcb66286414ae57c52e93ff5e0de9"
+vue-picture-input@*:
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/vue-picture-input/-/vue-picture-input-1.12.2.tgz#338d950c6dac83c176df4578cb74beae67aed188"
 
 vue-style-loader@^2.0.0:
   version "2.0.5"
@@ -3726,7 +3726,7 @@ vue-template-es2015-compiler@^1.2.2:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
 
-vue@>=2.1.0:
+vue@*:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.4.2.tgz#a9855261f191c978cc0dc1150531b8d08149b58c"
 
