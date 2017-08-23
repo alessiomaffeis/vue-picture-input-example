@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "*",
-    "vue-picture-input": "*"
+    "vue-picture-input": "^1.13.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

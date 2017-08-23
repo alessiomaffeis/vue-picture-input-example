@@ -3704,9 +3704,9 @@ vue-loader@^10.0.0:
     vue-style-loader "^2.0.0"
     vue-template-es2015-compiler "^1.2.2"
 
-vue-picture-input@*:
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/vue-picture-input/-/vue-picture-input-1.12.2.tgz#338d950c6dac83c176df4578cb74beae67aed188"
+vue-picture-input@^1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/vue-picture-input/-/vue-picture-input-1.13.1.tgz#4cc71c9762ba484cbd8c22b0ba0fa93212127dde"
 
 vue-style-loader@^2.0.0:
   version "2.0.5"
