@@ -3,8 +3,8 @@
     <picture-input 
           ref="pictureInput" 
           @change="onChange" 
-          width="200" 
-          height="200" 
+          width="600" 
+          height="600" 
           margin="16" 
           accept="image/jpeg,image/png" 
           size="10" 
