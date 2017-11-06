@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <h1>Vue Picture Input Example</h1>
+    <h1>vue-picture-input Example</h1>
+    <br>
     <picture-input 
       ref="pictureInput" 
       @change="onChange" 
@@ -9,7 +10,6 @@
       margin="16" 
       accept="image/jpeg,image/png" 
       size="10" 
-      buttonClass="btn"
       :removable="true"
       :customStrings="{
         upload: '<h1>Bummer!</h1>',
