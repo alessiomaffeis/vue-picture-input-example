@@ -1,20 +1,23 @@
 <template>
   <div id="app">
+    <h1>Vue Picture Input Example</h1>
     <picture-input 
-          ref="pictureInput" 
-          @change="onChange" 
-          width="600" 
-          height="600" 
-          margin="16" 
-          accept="image/jpeg,image/png" 
-          size="10" 
-          buttonClass="btn"
-          :removable="true"
-          :customStrings="{
-            upload: '<h1>Bummer!</h1>',
-            drag: 'Drag a 😺 GIF or GTFO'
-          }">
-        </picture-input>  
+      ref="pictureInput" 
+      @change="onChange" 
+      width="600" 
+      height="600" 
+      margin="16" 
+      accept="image/jpeg,image/png" 
+      size="10" 
+      buttonClass="btn"
+      :removable="true"
+      :customStrings="{
+        upload: '<h1>Bummer!</h1>',
+        drag: 'Drag a 😺 GIF or GTFO'
+      }">
+    </picture-input>
+    <br><br>
+    <a href="https://github.com/alessiomaffeis/vue-picture-input" class="btn btn-success">View project on GitHub</a>
   </div>
 </template>
 
