@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>vue-picture-input Example</h1>
-    <br>
+    <br><br>
     <picture-input 
       ref="pictureInput" 
       @change="onChange" 
