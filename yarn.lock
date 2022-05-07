@@ -4682,10 +4682,10 @@ vue-loader@^10.0.0:
     vue-style-loader "^2.0.0"
     vue-template-es2015-compiler "^1.2.2"
 
-vue-picture-input@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/vue-picture-input/-/vue-picture-input-2.2.0.tgz#e3ce3077fffa9d7264750e6dd670384a731e7f3a"
-  integrity sha512-ZdTAa6CuGyNHBX97YzT1TbsjMO0wHUyzE4WGOEUTBvKyh+uXocqBdOIucEG/Mqz9Zl7heHpTNm1uhIppD5NlUg==
+vue-picture-input@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/vue-picture-input/-/vue-picture-input-2.2.1.tgz#9eac1e2325ecbfc295617e44b5ddfbd984ebd967"
+  integrity sha512-cgC2ukXtYZnW0u5icojl7NQjk18Y+axowAT7y8gvwBw8Ydj9fqM9NNRqYnIJ0v2b+YbvsWTQlAmyQeFoevHX/Q==
 
 vue-style-loader@^2.0.0:
   version "2.0.5"
