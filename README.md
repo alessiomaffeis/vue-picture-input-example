@@ -1,22 +1,29 @@
-# picture-input-example
+# vpi-example
 
-This is a simple example project demonstrating the usage of vue-picture-input, a mobile-friendly picture file input Vue.js component with image preview, drag and drop, and EXIF orientation.
+This template should help get you started developing with Vue 3 in Vite.
 
-See it in action: https://alessiomaffeis.github.io/vue-picture-input-example/
+## Recommended IDE Setup
 
-vue-picture-input repository: https://github.com/alessiomaffeis/vue-picture-input
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Build Setup
+## Customize configuration
 
-``` bash
-# install dependencies
-npm install
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Project Setup
 
-# build for production with minification
-npm run build
+```sh
+bun install
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Compile and Hot-Reload for Development
+
+```sh
+bun dev
+```
+
+### Compile and Minify for Production
+
+```sh
+bun run build
+```
