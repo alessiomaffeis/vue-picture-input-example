@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.5.17",
-    "vue-picture-input": "^4.0.4"
+    "vue-picture-input": "^5.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",

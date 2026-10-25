@@ -1,11 +1,12 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "vpi-example",
       "dependencies": {
         "vue": "^3.5.17",
-        "vue-picture-input": "^4.0.2",
+        "vue-picture-input": "^5.0.0",
       },
       "devDependencies": {
         "@vitejs/plugin-vue": "^6.0.0",
@@ -385,7 +386,7 @@
 
     "vue": ["vue@3.5.17", "", { "dependencies": { "@vue/compiler-dom": "3.5.17", "@vue/compiler-sfc": "3.5.17", "@vue/runtime-dom": "3.5.17", "@vue/server-renderer": "3.5.17", "@vue/shared": "3.5.17" }, "peerDependencies": { "typescript": "*" }, "optionalPeers": ["typescript"] }, "sha512-LbHV3xPN9BeljML+Xctq4lbz2lVHCR6DtbpTf5XIO6gugpXUN49j2QQPcMj086r9+AkJ0FfUT8xjulKKBkkr9g=="],
 
-    "vue-picture-input": ["vue-picture-input@4.0.2", "", { "peerDependencies": { "vue": "^2.7.0 || ^3.0.0" } }, "sha512-1872boRK8qazWuvRMRiY5TNVK3jKvJ5QLFj7ujmN7QUH8hclHlHqHyuXuxyhXvY100C0mre+wqZejEh3N1AcPA=="],
+    "vue-picture-input": ["vue-picture-input@5.0.0", "", { "peerDependencies": { "vue": "^3.5.0" } }, "sha512-RROrjoFpLdlXxVjIKs2VtxNKZ3PIoe7IshQs3MCaZhn+1dlamKL41SaDeyTSUUCpwpUSNpCfh6tzyWtpKprYeg=="],
 
     "which": ["which@2.0.2", "", { "dependencies": { "isexe": "^2.0.0" }, "bin": { "node-which": "./bin/node-which" } }, "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="],
 

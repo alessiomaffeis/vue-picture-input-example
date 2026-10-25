@@ -2,7 +2,7 @@
   <div id="app">
     <h1>vue-picture-input Example</h1>
     <br /><br />
-    <picture-input
+    <PictureInput
       ref="pictureInput"
       @change="onChange"
       width="600"
@@ -16,7 +16,7 @@
         drag: 'Drag a 😺 GIF or GTFO',
       }"
     >
-    </picture-input>
+    </PictureInput>
     <br /><br />
     <a
       href="https://github.com/alessiomaffeis/vue-picture-input"
@@ -26,31 +26,22 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref } from "vue";
 import PictureInput from "vue-picture-input";
 
-export default {
-  name: "app",
-  data() {
-    return {
-      image: null,
-    };
-  },
-  components: {
-    PictureInput,
-  },
-  methods: {
-    onChange(image) {
-      console.log("New picture selected!");
-      if (image) {
-        console.log("Picture loaded.");
-        this.image = image;
-      } else {
-        console.log("FileReader API not supported: use the <form>, Luke!");
-      }
-    },
-  },
-};
+const pictureInput = ref(null);
+const image = ref(null);
+
+function onChange(newImage) {
+  console.log("New picture selected!");
+  if (newImage) {
+    console.log("Picture loaded.");
+    image.value = newImage;
+  } else {
+    console.log("FileReader API not supported: use the <form>, Luke!");
+  }
+}
 </script>
 
 <style>
